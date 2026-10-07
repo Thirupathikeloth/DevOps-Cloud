@@ -79,7 +79,7 @@ I am starting with zero experience. I have never typed a Linux or Git command an
 | **33** | Python for files & errors | Reading/writing files, `try/except`, `os`, env variables 🔐 | Log-file analyzer script | — |
 | **34** | Python, APIs & JSON | What an API is, JSON, the `requests` library | Script that calls the GitHub API and saves a report | Mini-project: API automation |
 | **35** | **Weekly review 5** | Review of scripting | Automation challenge | 🎯 Scripting interview Qs |
-| **36** | Cloud concepts & AWS setup 🔐 | IaaS/PaaS/SaaS, regions, Availability Zones, shared responsibility, the Free Tier | Create your AWS account, turn on MFA, set billing alarms and budgets | Safe AWS account |
+| **36** | Cloud concepts & AWS setup 🔐 | IaaS/PaaS/SaaS, regions, Availability Zones, shared responsibility, the Free Tier | Create your AWS account on the **Free plan** (6 months, $100 credits up to $200), turn on MFA, set budgets and credit alerts | Safe AWS account |
 | **37** | IAM 🔐 | Users, groups, roles, policies, least privilege, why you never use the root user day to day | Create an admin IAM user, groups and a custom read-only policy | — |
 | **38** | EC2 ⚠️ | Instances, AMIs, instance types, key pairs, user data | Launch a free-tier EC2, connect with SSH, then clean up | — |
 | **39** | EBS, Security Groups & Elastic IP ⚠️ | Volumes, snapshots, stateful firewalls, static IPs (and their cost) | Attach a volume, take a snapshot, tighten security group rules | — |
@@ -149,6 +149,11 @@ I am starting with zero experience. I have never typed a Linux or Git command an
 | 8 | Prometheus & Grafana monitoring | 81 |
 | 9 | GitOps with Argo CD | 84 |
 | Final | Production-style Cloud/DevOps platform | 89 |
+
+## AWS Free plan strategy
+- **Account created on Day 36, not earlier.** The Free plan lasts 6 months (about 180 days) or until the credits run out, whichever comes first. Starting on Day 36 means the free period covers every AWS day in this course (36–90) and about 4 more months of practice after it.
+- **Credits:** $100 at sign-up, plus up to $100 more for completing AWS onboarding activities.
+- **Protecting the credits:** delete resources after every lab, watch the credit balance, and keep the expensive labs (NAT Gateway, EKS, RDS) to a few hours.
 
 ## Rules for this course
 - A day is only marked complete when the practice is done and I can explain it in my own words.
