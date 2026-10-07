@@ -15,6 +15,14 @@
 - 🎯 = interview practice
 - Every 7th day is a **weekly review**: a mini assessment and a troubleshooting challenge.
 
+## Starting from zero
+
+I am starting with zero experience. I have never typed a Linux or Git command and do not know how they work. So in this course:
+- No command is used before it has been explained: what it does, what each part means, what the output should look like, and how to check it worked.
+- New words are explained the first time they appear, using everyday comparisons.
+- Hands-on steps come one or two commands at a time. I run them, report what I see, and only then continue.
+- If something is unclear, we stay on it until it makes sense. Speed is not the goal.
+
 ## Why the tools come in this order
 
 | Phase | Days | Why it comes here |
@@ -36,14 +44,14 @@
 
 | Day | Main Topic | What I Learn | Hands-On Practice | Project/Milestone |
 |---|---|---|---|---|
-| **1** | How computers communicate | What a network is, client & server, packets, the simple TCP/IP layer model | Set up your learning environment. Look at your own network using `ping` and `ipconfig`/`ip a` | Learning environment ready |
+| **1** | Computer basics & how computers communicate | What a computer, operating system, program, file and the internet are. What a "terminal" and a "command" are. What a network, client and server are. No experience needed | Open a terminal for the first time and type your first 3 commands, slowly, one by one with explanations. Then use `ping` to see two computers talking | First command typed |
 | **2** | IP addresses | IPv4, public vs private IP, localhost, IPv6 basics | Find your private and public IP. Test with `ping 127.0.0.1` | — |
 | **3** | Subnets & CIDR | Network vs host part, subnet masks, CIDR (`/24`, `/16`), how many IPs fit in a range | Subnet calculation exercises on paper and with a calculator tool. Plan an office network | Subnetting worksheet |
 | **4** | DNS & DHCP | How names become IPs, DNS record types (A, CNAME, MX, TXT), TTL, how DHCP gives you an IP | `nslookup`, `dig`, look at DNS records of real websites | — |
 | **5** | Ports, TCP/UDP, HTTP/HTTPS | Ports, TCP vs UDP, HTTP methods and status codes, TLS/HTTPS certificates | Use `curl -v` to read HTTP requests and replies, check open ports | — |
 | **6** | SSH, firewalls, NAT, routing, load balancers, proxies | How SSH works, firewall rules, NAT, default gateway, routing table, load balancer, proxy vs reverse proxy | Look at your routing table, run `traceroute`/`tracert`, draw how one web request travels | Network diagram #1 |
 | **7** | Network troubleshooting + **Weekly review 1** | A step-by-step way to troubleshoot (layer by layer) | 🛠️ "Website is down", 🛠️ "DNS not resolving" | 🎯 Networking interview Qs |
-| **8** | Linux introduction | What Linux is: kernel, shell, distributions, the file system tree | Install Ubuntu (WSL2, a VM, or a cloud shell). First terminal commands | Linux running |
+| **8** | Linux introduction | What Linux is and why servers use it. Kernel, shell, distributions, the file system tree, explained with everyday comparisons | Install Ubuntu step by step (WSL2, a VM, or a cloud shell). How to read a command (command, options, arguments). Your first Linux commands | Linux running |
 | **9** | Files & directories | Paths (absolute/relative), `ls`, `cd`, `pwd`, `mkdir`, `cp`, `mv`, `rm` | Build a folder structure for a fake company | — |
 | **10** | Viewing & searching text | `cat`, `less`, `head`, `tail`, `grep`, `find`, pipes `\|`, redirects `>` | Search through sample log files | — |
 | **11** | Users & groups | root, `sudo`, `/etc/passwd`, `useradd`, `groups` | Create users and teams for the fake company | — |
