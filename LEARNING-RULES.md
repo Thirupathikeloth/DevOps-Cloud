@@ -29,3 +29,8 @@ These rules apply to every learning session. They must not be broken.
 16. Never hardcode or commit passwords, API keys, tokens or secrets.
 17. AWS: warn about cost before a lab, give cleanup steps after.
 18. No AI names anywhere in this repository or its commits.
+
+## Notes and documentation
+19. Notes are written to a senior-engineer standard: professional, accurate, complete for the topic, and current industry practice.
+20. No random or filler content. Every section covers what is actually needed for the job and for interviews.
+21. Every set of notes is reviewed for gaps against the roadmap before it is delivered.
